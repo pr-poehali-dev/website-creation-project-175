@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1777855708458354022.html"
 	],
 	prefix: "",
 	theme: {
@@ -16,6 +17,10 @@ export default {
 			screens: {
 				'2xl': '1400px'
 			}
+		},
+		fontFamily: {
+			display: ['Cormorant', 'Georgia', 'serif'],
+			sans: ['IBM Plex Sans', 'system-ui', 'sans-serif'],
 		},
 		extend: {
 			colors: {
